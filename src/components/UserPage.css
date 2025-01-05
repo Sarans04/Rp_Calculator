@@ -1,0 +1,139 @@
+.user-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.user-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.user-content {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.image-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+.image-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 350px;
+}
+
+.user-image {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.form-section {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    margin-left: 50px;
+}
+
+.welcome-text {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+
+.user-form div {
+    margin-bottom: 15px;
+}
+
+.user-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.user-form select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF; /* Blue button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.button-div-download {
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 350px;
+}
+
+.button-div-download button {
+    background-color: black !important; /* Black button */
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 25px; /* Rounded button */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-div-download button:hover {
+    background-color: #333333; /* Slightly lighter black on hover */
+}
+
+.button-div-submit {
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 335px;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+.logout-font {
+    font-size: 16px;
+    margin-left: 1350px;
+    margin-bottom: -400px;
+    margin-top: -50px;
+    cursor: pointer;
+}

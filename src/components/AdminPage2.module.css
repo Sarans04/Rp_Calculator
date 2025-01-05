@@ -1,0 +1,116 @@
+.userPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.userHeader {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.userContent {
+    display: flex;
+    gap: 40px; /* Space between the image and form */
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.imageSection {
+    flex: 1;
+    text-align: center;
+    padding-right: 0px;
+}
+
+.imageTitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-right: 300px;
+    padding-top: 74px;
+}
+
+.userImage {
+    width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-left: 143px;
+}
+
+.formSection {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increase gap between elements */
+    margin-top: 100px;
+    align-items: flex-start; /* Left-align the form content */
+}
+
+.welcome1Text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    margin-right: 100px; /* Space below welcome text */
+}
+
+.userForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Increased gap between form elements for better spacing */
+    width: 100%; /* Ensures the form takes up the full width */
+}
+
+.userForm label {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.userForm select {
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Ensure full width dropdowns */
+}
+
+.buttonDivSubmit {
+    margin-top: 20px;
+    width: 100%; /* Ensures full-width container for the button */
+    text-align: left; /* Align the button to the left */
+}
+
+.buttonDivSubmit button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    width: auto;
+    margin-left: 200px; /* Remove full width from button */
+}
+
+.buttonDivSubmit button:hover {
+    background-color: #0056b3;
+}
+
+.success-message {
+    color: green;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+.errorMessage {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}

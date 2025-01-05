@@ -1,0 +1,93 @@
+.user-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-header {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-content {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 18px; /* Increased font size */
+}
+
+.user-form select {
+    padding: 12px; /* Increased padding for better touch targets */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px; /* Increased font size */
+}
+
+.user-form select:hover {
+    border-color: #007BFF; /* Add border color on hover */
+}
+
+.user-form option {
+    font-size: 16px; /* Increased font size for options */
+}
+
+.user-form button {
+    padding: 8px 16px; /* Reduced padding for a more compact look */
+    background-color: #007BFF;
+    color: white;
+    border: 1px solid #007BFF; /* Added border to match background color */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px; /* Reduced font size */
+    font-weight: bold;
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition */
+    width: 150px; /* Fixed width for a more consistent appearance */
+    max-width: 100%; /* Ensure it doesn't exceed container width */
+}
+
+.user-form button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3; /* Change border color on hover */
+}
+
+.user-form button:active {
+    background-color: #004494; /* Darker shade for active state */
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.log-font {
+    font-size: 16px;
+    margin-left: 1350px;
+    margin-bottom: -400px;
+    margin-top: -50px;
+    cursor: pointer;
+}
+
+.view-marks {
+    font-size: 16px;
+    margin-left: 1100px;
+    margin-bottom: -400px;
+    margin-top: -50px;
+    cursor: pointer;
+    color: #007BFF;
+}

@@ -1,0 +1,52 @@
+.view-mark-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: inherit; /* Ensures the font is inherited from the global settings */
+}
+
+.view-mark-header {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-family: inherit;
+     /* Inherits the global font */
+}
+
+.view-mark-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-family: inherit; /* Ensures the table content uses the global font */
+}
+
+.view-mark-table th,
+.view-mark-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.view-mark-table th {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.view-mark-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.view-mark-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+
+.no-data {
+    text-align: center;
+    font-style: italic;
+    color: #888;
+}
