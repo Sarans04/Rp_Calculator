@@ -1,14 +1,16 @@
 import React, { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import './ViewMark.css';
 
 const ViewMark = () => {
     const [marksData, setMarksData] = useState([]);
+    const navigate = useNavigate();
 
     useEffect(() => {
         const fetchMarksData = async () => {
             try {
-                const response = await axios.get('http://localhost:4000/get-marks');
+                const response = await axios.get('http://localhost:4000/marks');
                 if (response.data && response.data.data) {
                     setMarksData(response.data.data);
                 }
@@ -22,6 +24,9 @@ const ViewMark = () => {
 
     return (
         <div className="view-mark-container">
+            <div className="back-button" onClick={() => navigate('/admin')}>
+                <span className="arrow">←</span> Back to Admin
+            </div>
             <h1 className="view-mark-header">Tac Marks</h1>
             <table className="view-mark-table">
                 <thead>
@@ -39,9 +44,7 @@ const ViewMark = () => {
                                 <td>{item.PID}</td>
                                 <td>{item.AdminMark || 'N/A'}</td>
                                 <td>{item.UserMark || 'N/A'}</td>
-                                <td>
-                                    {(item.Total || 0)}
-                                </td>
+                                <td>{item.Total || 0}</td>
                             </tr>
                         ))
                     ) : (

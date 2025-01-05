@@ -18,7 +18,7 @@ router.put('/marks', updateMarks);
 router.delete('/marks', deleteMarks);
 
 // Route to get marks by PID
-router.get('/get-marks', getMarksByPID);
+router.get('/marks/:PID', getMarksByPID);
 
 // Route to get all marks
 router.get('/marks', getAllMarks);

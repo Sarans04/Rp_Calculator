@@ -1,10 +1,10 @@
 const { ResultModel } = require("../models/userModel");
 
 const getMarksByPID = async (req, res) => {
-    // const { PID } = req.params;
+    const { PID } = req.params;
 
     try {
-        const resultData = await ResultModel.find({  });
+        const resultData = await ResultModel.findOne({ PID });
 
         if (resultData) {
             res.status(200).json({
@@ -15,7 +15,6 @@ const getMarksByPID = async (req, res) => {
             res.status(404).json({ msg: "PID not found" });
         }
     } catch (error) {
-        console.log(error)
         res.status(500).json({ msg: "Error retrieving data from DB", error });
     }
 };

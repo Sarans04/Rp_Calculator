@@ -69,17 +69,17 @@ const Login = () => {
                 <button type="button" onClick={handleLogin}>
                   Log In
                 </button>
-                <button type="button">
+                {/* <button type="button">
                   <img src={GoogleSvg} alt="" />
                   Log In with Google
-                </button>
+                </button> */}
               </div>
             </form>
           </div>
 
-          <p className="login-bottom-p">
+          {/* <p className="login-bottom-p">
             Don't have an account? <a href="#">Sign Up</a>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

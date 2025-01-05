@@ -50,3 +50,21 @@
     font-style: italic;
     color: #888;
 }
+
+.back-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.back-button .arrow {
+    margin-right: 5px;
+    font-size: 18px;
+}
+
+/* .back-button:hover {
+    text-decoration: underline;
+} */
